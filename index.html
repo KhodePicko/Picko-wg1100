@@ -338,7 +338,7 @@ function copyConfig() {
 // 🔐 Lock screen logic
 function checkPassword() {
   const input = document.getElementById("passwordInput").value.trim();
-  if (input === "picko") {
+  if (input === "1234") {
     document.getElementById("lockScreen").style.display = "none";
     document.querySelector(".container").style.display = "block";
     document.querySelector(".footer").style.display = "block";
@@ -355,4 +355,5 @@ document.addEventListener("DOMContentLoaded", () => {
 </body>
 
 </html>
+
 
